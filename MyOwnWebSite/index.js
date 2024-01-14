@@ -38,6 +38,6 @@ function postComment() {
     let newComment = document.createElement("p");
     newComment.textContent = commentText;
     commentsContainer.appendChild(newComment);
-    commentInput.value = "Holberton School...";
+    commentInput.value = "What do you Think...";
   }
 }
